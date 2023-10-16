@@ -1,4 +1,4 @@
-function getNameXp(vitorias, derrotas) {
+function calcRank(vitorias, derrotas) {
 
   const numeroVitorias = Number(vitorias);
   const numeroDerrotas = Number(derrotas);
@@ -38,4 +38,4 @@ function getNameXp(vitorias, derrotas) {
 
 }
 
-console.log(getNameXp(9591, 9500));
+console.log(calcRank(9591, 9500));
